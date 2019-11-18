@@ -1,1 +1,1 @@
-cscript script.vbs "C:\Users\schaefjo\OneDrive - Maverick Technologies, LLC\MapleLeafFood\Action Items 4.0(32).xlsm"
+cscript script.vbs "C:\Users\where you have your spreedsheet"

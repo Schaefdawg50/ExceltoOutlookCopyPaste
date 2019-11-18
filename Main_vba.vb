@@ -13,7 +13,7 @@ Set rng = Range("A1")
     LastColumn = rng.SpecialCells(xlCellTypeLastCell).Column
     ws.Range(rng, rng.Cells(LastRow, LastColumn)).Select
 
-p = "C:\Users\" & Environ("username") & "\Desktop\MLFSpreadsheet.html"
+                    p = "C:\Users\" & Environ("username") & "\Desktop Spreadsheet.html"
 
 Workbooks.Add
 Set new_wb = ActiveWorkbook
@@ -47,7 +47,7 @@ Set omail = o.CreateItem(olMailItem)
 '
 With omail
 
-    .To = "josh.schaefer@mavtechglobal.com"
+    .To = "you@anyemail.com"
     .Subject = "Test"
     .HTMLBody = "Newest spreadsheet" & "Please see below" & "<br>" & "<table align = left>" & readme & "</table>"
     '.Send
